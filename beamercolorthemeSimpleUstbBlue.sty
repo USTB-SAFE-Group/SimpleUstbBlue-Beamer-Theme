@@ -1,0 +1,57 @@
+%-------------------------------------------------------------
+%  Package: beamertheme-SimpleDarkBlue
+%  Author: Pin-Yen Huang (pyhuang97@gmail.com)
+%  Version: 1.1, 2025-01-12
+%  Link: https://github.com/pm25/SimpleDarkBlue-BeamerTheme
+%  This is free and unencumbered software released into the
+%  public domain; see <http://unlicense.org> for details.
+%-------------------------------------------------------------
+
+%--------------------------------------
+%  Color Settings
+%--------------------------------------
+
+% define custom colors
+\definecolor{MutedRed}{rgb}{0.97, 0.92, 0.92}
+\definecolor{MutedGreen}{rgb}{0.92, 0.97, 0.92}
+\definecolor{MutedBlue}{rgb}{0.92, 0.92, 0.97}
+\definecolor{MutedBlack}{rgb}{0.95, 0.95, 0.95}
+
+\definecolor{MediumRed}{rgb}{0.93, 0.35, 0.35}
+\definecolor{MediumGreen}{rgb}{0.37, 0.70, 0.66}
+\definecolor{MediumBlue}{rgb}{0.20, 0.49, 0.66}
+\definecolor{MediumBlack}{rgb}{0.22, 0.26, 0.35}
+
+\definecolor{UstbBlue}{rgb}{0.00, 0.36, 0.58}
+
+% set beamer color themes
+\usecolortheme[named=UstbBlue]{structure}
+
+% customize colors for elements
+\setbeamercolor{title}{bg=UstbBlue,fg=white}
+\setbeamercolor{frametitle}{bg=UstbBlue,fg=white}
+
+\setbeamercolor{block title}{fg=white,bg=MediumBlue}
+\setbeamercolor{block body}{fg=black,bg=MutedBlue}
+\setbeamercolor{block title example}{fg=white,bg=MediumGreen}
+\setbeamercolor{block body example}{fg=black,bg=MutedGreen}
+\setbeamercolor{block title alerted}{fg=white,bg=MediumRed}
+\setbeamercolor{block body alerted}{fg=black,bg=MutedRed}
+
+\setbeamercolor{itemize item}{fg=black}
+\setbeamercolor{itemize subitem}{fg=black}
+\setbeamercolor{itemize subsubitem}{fg=black}
+\setbeamercolor{enumerate item}{fg=black}
+\setbeamercolor{enumerate subitem}{fg=black}
+\setbeamercolor{enumerate subsubitem}{fg=black}
+\setbeamercolor{description item}{fg=black}
+
+\setbeamercolor{caption name}{fg=black}   % “表”“图”字样
+\setbeamercolor{caption}{fg=black}        % 标题正文（一般默认已是黑，保险起见）
+
+% ---- 参考文献列表 ----
+\setbeamercolor{bibliography item}{fg=black}
+\setbeamercolor{bibliography entry author}{fg=black}
+\setbeamercolor{bibliography entry title}{fg=black}
+\setbeamercolor{bibliography entry location}{fg=black}
+\setbeamercolor{bibliography entry note}{fg=black}
